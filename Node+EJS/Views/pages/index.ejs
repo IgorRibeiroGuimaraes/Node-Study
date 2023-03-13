@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Incluindo outras partes no ejs -->
+    <%- include('../partials/head');%>  <!-- - falando que estou dando dando um comando uma sintaxe somente do EJS -->
+<body class="container ">
+    <%- include('../partials/header');%>  <!-- add um object -->
+    <main>
+        <div class="jumbotron">
+            <h1>
+            Node com EJS
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consectetur omnis perferendis neque. Facere laudantium eveniet culpa dolores quam voluptates impedit, enim, hic perferendis cum dolorum vero laborum nisi voluptatum!
+        </p>
+        <p><%= subtitle %> </p>
+
+        <%- include('../partials/footer');%> %>
+    </div>
+    <ul>
+    <% qualitys.forEach(function(quality){%>
+        <li>
+            <strong> <%= quality.title %> </strong> <%= quality.message %>
+        </li>
+    <% }) %>
+   
+</ul>
+    </main>
+</body>
+</html>

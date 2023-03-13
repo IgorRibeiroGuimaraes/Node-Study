@@ -1,0 +1,58 @@
+Diretório local, onde está o arquivo que estamos executando 
+    console.log(__dirname)
+
+Caminho completo + nome do arquivo
+    console.log(__filename)
+
+Módulos
+    require é utilizado para chamar algum módulo que são nativos do node.js
+
+#NPM
+    Node Pack Manager
+
+    __Glossary: Dependencies, Packges, Modules__
+
+    -[X] Verificar se temos o npm instalado `npm -v`
+    -[X]Criar o noos próprio pacote --npm init ou npm init -y
+    -[X] o que é um arquivo package.json
+    -[X] Utilizar módulos de terceiros
+    -[X] O que é o diretório node_modules
+    -[X] O que é o arquivo package-lock.json
+    -[X] Criar scripts para rodar com o npm
+    -[X] Instalar pacote de maneira global // npm i (nome do modulo) -g // caminho da instalção -- npm root -g
+    -[X] Desinstalar pacotes // npm uninstall (nome do pacote) -g
+    -[X] Mudar versão de pacotes
+    -[X] Desinstalar o pacote -npm uninstall (nome do pacote)
+
+    //major.minor.patch
+    //patch - revsolvendo algum bug
+    //minor - haverá alteração mas não irá quberar o projeto
+    //majo - versão do projeto e podeerá queberar algo no projeto
+    ^ - atualizará o minor e o patch somente
+    ~ -  atualizará o patch
+    " " - se houver nada vai manter a versão 
+    * - mudará todas as versões
+
+#Timers
+    Uma maneira de trabalharmos com o tempo dentro do NodeJS
+
+    [X] setTimeout // roda uma função depois de X milissegundos
+    [X] clearTimeout // cancela o time da aplicação
+    [X] setInterval // Irá rodar um função N vezes
+    [X] clearInterval // irá cancelar um setInterval Registrado
+
+    [X] Assícronismo 
+    [X] Callbacks
+
+Event
+    É um mecanimso para
+    [] Disparar eventos
+    [] Ouvir eventos
+    [] Fazer alguma ação quando ouvir o evento.
+    [] É a base para muito outros módulos como: http, stream,file system,etc...
+
+    [X] Utilizar os eventos // const {EventEmitter} = require('events')
+    [X] Disparar eventos //ev.emit
+    [X] Ouvir eventos // ev.on
+    [X] Executar ações para determinados eventos
+    [X] Entender como ele é a base para outros módulos

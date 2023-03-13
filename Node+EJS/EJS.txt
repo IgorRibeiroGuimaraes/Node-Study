@@ -1,0 +1,7 @@
+EJS
+    Uma linguagem de modelagem para criação HTML utilizando JS
+
+    Desnvolver aplicação/serviços de forma fácil
+    EJS usa JavaScript para renderizar HTML
+    Sintaxe simplex
+    Muito fácil de fazer debugging
